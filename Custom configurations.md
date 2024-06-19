@@ -37,4 +37,7 @@ spec:
               name: "My service"
 ```
 
-For more examples please follow: https://github.com/DataDog/datadog-operator/tree/main/examples/datadogagent/v2alpha1
+For more examples please see: 
+https://github.com/DataDog/datadog-operator/blob/main/docs/integrations_autodiscovery.md
+https://github.com/DataDog/datadog-operator/tree/main/examples/datadogagent/v2alpha1
+https://github.com/DataDog/integrations-core/blob/master/redisdb/datadog_checks/redisdb/data/auto_conf.yaml
