@@ -25,10 +25,10 @@ To deploy the Datadog Agent with the operator in the minimum number of steps, se
 ### Install the Datadog Operator: Here are the steps: https://github.com/DataDog/datadog-operator/blob/main/docs/configuration.v2alpha1.md
 To install the Datadog Operator in your current namespace, run:
 
-`helm repo add datadog https://helm.datadoghq.com
+```helm repo add datadog https://helm.datadoghq.com
 helm install datadog-operator datadog/datadog-operator
 kubectl create secret generic datadog-secret --from-literal api-key=<DATADOG_API_KEY>
-`
+```
 Replace <DATADOG_API_KEY> and <DATADOG_APP_KEY> with your Datadog API and application keys
 
 ### Configure datadog-agent.yaml. Create a file with the spec of your Datadog Agent deployment configuration. The simplest configuration is as follows:
