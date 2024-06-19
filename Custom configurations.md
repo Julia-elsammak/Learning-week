@@ -1,4 +1,4 @@
-This setup below explores combining the features with some overrides. .
+This setup below explores combining the features with some overrides:
 ```
 apiVersion: datadoghq.com/v2alpha1
 kind: DatadogAgent
