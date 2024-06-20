@@ -1,0 +1,27 @@
+Install:
+helm repo add datadog https://helm.datadoghq.com
+helm install my-datadog-operator datadog/datadog-operator
+kubectl create secret generic datadog-secret --from-literal api-key=<DATADOG_API_KEY>
+kubectl apply -f /path/to/your/datadog-agent.yaml
+
+Validation:
+kubectl get daemonset 
+kubectl get pod -o wide
+
+Cleanup:
+kubectl delete datadogagent datadog
+helm delete my-datadog-operator
+
+Helpful commands:
+kubectl config current-context 
+helm list
+helm uninstall
+alias new_name='old command'
+kubectl get pods
+kubectl describe pod <your pod>
+
+Links:
+https://kubernetes.io/docs/reference/kubectl/quick-reference/
+https://kubernetes.io/pt-br/docs/reference/kubectl/cheatsheet/
+https://askubuntu.com/questions/154640/how-to-add-an-alias-to-a-command-in-terminal
+https://prathapreddy-mudium.medium.com/time-saving-aliases-for-kubernetes-certification-exams-e81b91c55439
