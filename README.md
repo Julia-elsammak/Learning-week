@@ -1,4 +1,5 @@
 # Learning-week
+https://docs.google.com/presentation/d/153XcxQ9k7_41NRiUPAdQFrnnwbAke7tcVrrSsJYb2aY/edit#slide=id.g2e6f4f09bba_0_35
 Datadog Operator 
 
 ### Installation
